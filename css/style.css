@@ -1,0 +1,118 @@
+:root {
+    --font-family: "Tiro Bangla", serif;
+    --englis-font: "Open Sans", sans-serif;
+    --primary-color: #1565C0;
+
+    --Secondary-Color: #1f8bbd;
+    --background-color: #F5F5F5;
+    --active-color: #F57F17;
+    --text-color: #212121;
+    --btn-color: #FFCA28;
+}
+
+* {
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--background-color) !important;
+    scroll-behavior: smooth;
+}
+
+.english-font {
+    font-family: var(--englis-font);
+
+}
+
+.english-font>li>a {
+    font-family: var(--englis-font);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.top-header,
+.main-header {
+    background-color: var(--primary-color);
+}
+
+button {
+    background: var(--btn-color) !important;
+    transition: 0.8s !important;
+    color: var(--text-color) !important;
+    font-weight: 700 !important;
+}
+
+button:hover {
+    border: 1px solid var(--btn-color) !important;
+    color: var(--background-color) !important;
+    background-color: var(--Secondary-Color) !important;
+
+}
+
+.login-btn button:last-child {
+    margin-left: 5px;
+    padding: 8px 12px;
+    border-radius: 10px;
+}
+
+.login-btn button:last-child:hover {
+    color: black !important;
+    transition: none;
+    border: none !important;
+}
+
+
+
+
+.active {
+    color: var(--active-color) !important;
+}
+
+
+.hero-section {
+    background: var(--Secondary-Color);
+}
+
+
+.detiles-section {
+    background: #2299cf;
+}
+
+/* .content-section h5,
+.content-section p
+{
+  color: #212121 !important;
+} */
+.card {
+    background-color: #1565C0;
+    transition: 0.4s;
+}
+
+.card:hover {
+    box-shadow: 2px 2px 4px 2px white;
+    transform: scale(1.02);
+}
+
+.content-section {
+    background: #1e87b8;
+
+}
+
+.projects-section {
+    background-color: #1a739c;
+}
+
+.contact-us {
+    background: #176488;
+}
+
+.gallery{
+     background: #195e7e;
+}
+.gallery .vedio{
+    border: 1px solid black;
+}
+
+.socket {
+    background: var(--primary-color);
+}
